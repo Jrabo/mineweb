@@ -103,11 +103,12 @@ nav ul :hover {
      background-color: rgba(255, 255, 255, 0.2);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .header {
         display:  flex;
         flex-direction: column;
         justify-content: center;
+        height: 10%;
     }
 
     .header img {
@@ -126,9 +127,20 @@ nav ul :hover {
         margin-top: 0;
     }
 
+    .hero {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 100vh;
+    }
+
     .hero-content p {
         font-size: 30px;
         text-align: center;
         max-width: 100%;
     }
-}   
+}
+
+@media screen and ( max-width: 480px) {
+    
+}
