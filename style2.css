@@ -30,6 +30,10 @@ body {
     margin-bottom: -42px;
 }
 
+::placeholder {
+    color: #adae6a;
+}
+
 form {
     display: grid;
     gap: 12px;
@@ -59,10 +63,25 @@ form input {
      .header img {
         margin-bottom: 10px;
      }
+    .wrapper input {
+        margin: 0 auto;
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .header img {
         margin: auto;
     }
-}
+
+    .wrapper {
+        width: 66%;
+        align-items: center;
+    }
+    
+    .wrapper input {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    }
+
