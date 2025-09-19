@@ -1,0 +1,102 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+
+body {
+    max-width: 98%;
+    margin: 0 auto;
+   background-color:#8d9b44;
+    font-family: "Bitcount Grid Double", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0.5,
+        "ELSH" 0,
+        "ELXP" 0;
+    overflow-y: auto;
+}
+
+.hero img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -42px;
+}
+
+.hero {
+     background: url(horse-876783_1280.png) no-repeat center center/cover;
+    height: auto;
+    max-width: 209%;
+    margin: 0 auto;
+    /* width: 100; */
+}
+
+
+.hero-content {
+    text-align: center;
+    font: 900;
+    font-size: 20px;
+    text-transform: uppercase;
+   color:  #fff5e3;
+   padding: 10px;
+}
+
+.templates {
+    text-align: center;
+    color: #fff5e3;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.content {
+    color: #fff5e3;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+    color: #fff5e3;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+form input {
+    border:  1px solid #fff5e3;
+    border-radius: 3px;
+    padding: 10px;
+    /* background-color: #8e7538; */
+    background: transparent;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+     padding: 10px;
+}
+
+.btn button {
+    background-color: #12a0c8d8; /* Transparent white background */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+     text-transform: uppercase;
+     font-family: "Bitcount Grid Double", system-ui;
+}
+
+.btn button:hover {
+     background-color: rgba(255, 255, 255, 0.2);
+}

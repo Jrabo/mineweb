@@ -82,7 +82,6 @@ nav ul :hover {
     display: flex;
     justify-content: center;
     gap: 12px;
-   
 }
 
 .btn button {
@@ -91,12 +90,16 @@ nav ul :hover {
     border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
     border-radius: 10px; /* Rounded corners */
     padding: 10px 20px;
-    color: #fff5e3;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
      text-transform: uppercase;
      font-family: "Bitcount Grid Double", system-ui;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff5e3;
 }
 
 .btn button:hover {

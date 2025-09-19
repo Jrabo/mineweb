@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+body {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background: url(minecraft-1746541_1280.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+   background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px;
+    width: 45%;
+    padding: 35px;
+    box-shadow: 0 4px 10px rgb(0,0,0,0.1);
+    text-align: center;
+}
+
+.header img {
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -42px;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+form input {
+    padding: 10px;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid #fff5e3;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff5e3;
+}
+
+.btn a:hover {
+    color: #adae6a;
+}
