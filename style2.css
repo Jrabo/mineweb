@@ -2,7 +2,7 @@
 body {
     margin: 0;
     font-family: Arial,sans-serif;
-    background: url(minecraft-1746541_1280.jpg);
+    background: url(minecraft-1746541_1280.jpg) no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,4 +53,16 @@ form input {
 
 .btn a:hover {
     color: #adae6a;
+}
+
+@media screen and (max-width: 1024px) {
+     .header img {
+        margin-bottom: 10px;
+     }
+}
+
+@media screen and (max-width: 768px) {
+    .header img {
+        margin: auto;
+    }
 }
